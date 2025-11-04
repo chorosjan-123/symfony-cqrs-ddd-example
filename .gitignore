@@ -1,0 +1,33 @@
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+# Env variables
+.env
+
+# Prevent accidental commits of database dumps
+*.sql
+*.sql.gz
+
+
+# IDE / Editor files
+.idea/
+.vscode/
+*.swp
+*~
+.project
+.settings
+*.tmproj
+*.sublime-project
+*.sublime-workspace
+###> phpunit/phpunit ###
+/phpunit.xml
+/.phpunit.cache/
+###< phpunit/phpunit ###
