@@ -1,0 +1,5 @@
+controllers:
+    resource:
+        path: ../src/ProcessFeature/Presentation/Controller/
+        namespace: App\ProcessFeature\Presentation\Controller
+    type: attribute
